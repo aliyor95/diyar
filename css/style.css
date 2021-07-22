@@ -3569,6 +3569,37 @@ iframe {
     text-align: center;
 }
 
+.inter-content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.inter-photo {
+    width: 388px;
+    height: 511px;
+    position: relative;
+    overflow: hidden;
+}
+
+.inter-photo img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.inter__content-right {
+    display: flex;
+    margin-left: 42px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inter-box {
+    margin-bottom: 34px;
+}
+
 /* News-page
 ============================================= */
 
@@ -5481,6 +5512,10 @@ iframe {
     .mobil-reservation {
         display: block;
         margin-top: 20px;
+    }
+
+    .carousel-inner {
+        height: 811px;
     }
 
 }
