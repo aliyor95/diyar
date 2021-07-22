@@ -1947,6 +1947,10 @@ svg {
     font-family: 'Roboto', sans-serif;
 }
 
+.mobil-visible {
+    display: none;
+}
+
 .scroll {
     color: #C8B372;
     font-size: 20px;
@@ -5304,8 +5308,12 @@ iframe {
         display: block;
     }
 
+    .header__info {
+        top: 20%;
+    }
+
     .carousel-inner .carousel-item img {
-        height: 600px;
+        height: 812px;
     }
 
     .scroll {
@@ -5327,15 +5335,34 @@ iframe {
     }
 
     .mobil-reservation {
-        margin-bottom: 60px;
+        margin-bottom: 110px;
+    }
+
+    .intro__suptitle {
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .nav.active .reservation {
         padding-top: 30px;
     }
 
+    .pc-visible {
+        display: none;
+    }
+
+    .mobil-visible {
+        display: block;
+        text-align: center;
+    }
+
     .is-visible {
         font-size: 30px;
+    }
+
+    .mobil-visible .is-visible {
+        text-align: center;
+        font-size: 35px;
     }
 
     .section__info {
