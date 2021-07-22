@@ -5365,6 +5365,11 @@ iframe {
         font-size: 35px;
     }
 
+    .carousel-item {
+        width: 1440px;
+        transform: translate(-35%);
+    }
+
     .section__info {
         justify-content: center;
     }
