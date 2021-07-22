@@ -235,6 +235,26 @@ $("#nav_toggle").on("click", function (event) {
   $("#nav").toggleClass("active");
 });
 
+
+// Smooth scroll
+$('[data-scroll]').on('click', function(event) {
+  event.preventDefault();
+
+  let $this = $(this),
+  blockId = $this.data('scroll'),
+  blockOffset = $(blockId).offset().top;
+
+  $('#nav__link a').removeClass('active');
+  $this.addClass('active');
+
+  $('#nav__link').removeClass('active');
+  $('#nav_toggle').removeClass('active');
+
+  $('html, body').animate ({
+      scrollTop: blockOffset
+  }, 500);
+});
+
 // Slick slider
 $(function () {
   $(".slick-slider").slick({
@@ -282,7 +302,7 @@ $(function () {
 		  variableWidth: true,
 		  centerMode: true,
 		  adaptiveHeight: true,
-		//   dots: false
+		//   dots: false 
         },
       },
     ],
