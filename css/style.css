@@ -4101,7 +4101,7 @@ iframe {
         flex-direction: column;
         justify-content: center;
         padding-top: 0;
-        border: 1px solid #e4b016;
+        /* border: 1px solid #e4b016; */
     }
 
     .nav-toggle {
@@ -5299,7 +5299,7 @@ iframe {
     }
 
     .nav-toggle {
-        top: 4%;
+        top: 3.5%;
         right: 50px;
     }
 
