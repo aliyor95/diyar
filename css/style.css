@@ -4079,7 +4079,6 @@ iframe {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        border: 1px solid #e4b016;
         opacity: 0;
         width: 100%;
     }
@@ -5300,7 +5299,7 @@ iframe {
     }
 
     .nav-toggle {
-        top: 35px;
+        top: 4%;
         right: 50px;
     }
 
